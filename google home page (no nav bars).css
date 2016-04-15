@@ -1,0 +1,61 @@
+body, head {
+  background: #ffffff;
+}
+#logo {
+  position: absolute;
+  top: 60px;
+  left: 135px;
+  right: 135px;
+}
+#logo img {
+  width: 100%;
+  height: auto;
+}
+#container {
+  position: absolute;
+  top: 175px;
+  left: 75px;
+}
+#container:hover {
+  border: solid gray .5px;
+}
+#container input {
+  width: 400px;
+  height: 25px;
+  font-family: Arial;
+  font-size: 12px;
+  font-color: lightgray;
+  padding-left: 10px;
+}
+#container:focus {
+  border: solid royalblue .5px;
+}
+#search, #lucky {
+  position: absolute;
+  height: 20px;
+  width: auto;
+  top: 230px;
+  padding: 4px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+#search {
+  left: 150px;
+}
+#lucky {
+  right: 150px;
+}
+#lucky_link, #search_link {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+  text-decoration:none;
+  padding: 6px 10px 6px 10px;
+}
+#lucky:hover, #search:hover {
+  border: solid lightgray .5px;
+}
+#lucky_link:hover, #search_link:hover {
+  color:black;
+}
